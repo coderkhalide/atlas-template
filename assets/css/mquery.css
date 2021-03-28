@@ -1,0 +1,59 @@
+@media (min-width: 576px) {
+    .content-hero {
+        padding: 4rem 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-logo, .text-right {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .content-hero {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: blue;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-second-section {
+        text-align: center;
+    }
+    .h3-text {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .padd-text{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .first-laptop {
+        padding-right: 40px;
+    }
+    }
+}
+
+@media (max-width: 768px) {
+    .content-third-section {
+        text-align: center;
+    }
+    .h3-text {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .padd-text{
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+    .second-laptop {
+        padding-right: 40px;
+    }
+    }
+}
+
