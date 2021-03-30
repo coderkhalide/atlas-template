@@ -145,7 +145,9 @@ p{
     clip-path: polygon(0 65%, 100% 5%, 100% 100%, 0% 100%);
     z-index: -1;
 }
-
+.left_content{
+    margin-bottom: 100px;
+}
 /* pricing */
 .pricing{
     padding: 80px 0;
@@ -288,4 +290,49 @@ p{
     justify-content: center;
     text-decoration: none;
     color: #192440;
+}
+
+
+@media (max-width: 768px) {
+    .content-hero h1{
+        text-align: center;
+        font-size: 57.6px;
+    }
+    .content-hero p{
+        text-align: center;
+    }
+    .content-hero .button {
+        margin: 40px auto;
+        display: block;
+        width: fit-content;
+    }
+    .container{
+        max-width: 567px;
+    }
+
+    .lookinside h1{
+        text-align: center;
+    }
+    .lookinside p{
+        text-align: center;
+    }
+    .right_content .col-md-6:nth-child(1){
+        order: 1;
+        margin-bottom: 40px;
+    }
+    .right_content .col-md-6:nth-child(2){
+        order: 2;
+    }
+    .lookinside .button {
+        margin: 40px auto;
+        display: block;
+        width: fit-content;
+    }
+    .copyright_text{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .social_links{
+        justify-content: center;
+    }
 }
